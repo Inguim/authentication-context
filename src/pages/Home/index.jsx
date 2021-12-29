@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../../contexts/auth";
 import { Container } from "../../styles/Container";
 import { Button } from "../../styles/Button";
-import { Content } from "./syles";
+import { Content } from "./styles";
 
 const Home = () => {
   const { Logout, user } = useAuth();
