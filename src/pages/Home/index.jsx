@@ -6,7 +6,7 @@ import { Button } from "../../styles/Button";
 import { Content } from "./syles";
 
 const Home = () => {
-  const { Logout } = useAuth();
+  const { Logout, user } = useAuth();
 
   async function handleLogout() {
     Logout();
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <Container>
       <Content>
-        <h1>Home</h1>
+        <h1>Welcome, {user.name} 🐵</h1>
         <Link to="/dashboard">Dashboard</Link>
         <Button backgroundColor="--red" onClick={() => handleLogout()}>Logout</Button>
       </Content>

@@ -61,6 +61,8 @@ async function Login(setUser, setSigned, { email, password }) {
     
     localStorage.setItem('@App:user', JSON.stringify(response.data.user));
     localStorage.setItem('@App:token', response.data.token);
+  } else {
+    return "Acho que você errou suas credencias 🙄";
   }
 }
 
