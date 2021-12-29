@@ -12,8 +12,6 @@ export const AuthProvider = ({ children }) => {
     const storagedUser = localStorage.getItem('@App:user');
     const storagedToken = localStorage.getItem('@App:token');
 
-    console.log(storagedToken, storagedUser)
-
     if (storagedToken && storagedUser) {
       setSigned(true);
       setUser(JSON.parse(storagedUser));

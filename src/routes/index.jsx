@@ -7,8 +7,6 @@ import { useAuth } from '../contexts/auth';
 const Routes = () => {
     const { signed } = useAuth();
 
-    console.log(signed);
-
     return signed ? <OtherRoutes /> : <SignRoutes />;
 }
 
