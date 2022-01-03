@@ -1,7 +1,7 @@
 # Authentication Context
 > Pequeno projeto cujo intuito é entender o funcionamento do useContext para ContextApi, além do controle de rotas no Reactjs pelo react-router-dom.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cfa6c7ae-b8c2-4a9d-b58b-2ee9a8b513c5/deploy-status)](https://app.netlify.com/sites/authenticate-context/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cfa6c7ae-b8c2-4a9d-b58b-2ee9a8b513c5/deploy-status)](https://authenticate-context.netlify.app)
 
 ### Features
 - Login
